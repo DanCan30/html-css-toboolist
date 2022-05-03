@@ -31,17 +31,24 @@ h1 {
 
 .container {
     width: 70%;
-    margin: 50px auto 0;
+    margin: 3px auto 0;
     background: white;
+    padding-left: 50px;
+}
+
+.bottom-radius {
+    padding-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /* Button */
 
 .button-container {
     height: 80px;
-    padding-left: 50px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-top: 50px;
 }
 
 .button {
@@ -74,3 +81,77 @@ h1 {
 }
 
 /* Container principale */
+
+section {
+    padding-top: 20px;
+}
+
+h2 {
+    color: #444851;
+    margin-bottom: 10px;
+}
+
+h2:before {
+    content:"\25BE";
+}
+
+.done:before {
+    content:"\2714";
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 10px;
+    margin-right: 4px;
+}
+
+.undone:before {
+    content:"\2716";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 10px;
+    margin-right: 4px;
+}
+
+.list {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #444851;
+}
+
+
+/* Tags */
+
+.tag {
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+.editorial {
+    background: #45ABEA;
+}
+
+.goals {
+    background: #9C72E4;
+}
+
+.recruiting {
+    background: #64C0A9;
+}
+
+.mobile {
+    background: #F29E33;
+}
+
+.website {
+    background: #D863A1;
+}
+
+.sales {
+    background: #B0C926;
+}
