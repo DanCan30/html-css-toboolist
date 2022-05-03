@@ -26,3 +26,51 @@ h1 {
     height: 80px;
     vertical-align: middle;
 }
+
+/* Main */
+
+.container {
+    width: 70%;
+    margin: 50px auto 0;
+    background: white;
+}
+
+/* Button */
+
+.button-container {
+    height: 80px;
+    padding-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.button {
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-task:hover {
+    background: white;
+    color: #47ADF1;
+    border: 1px solid #47ADF1;
+}
+.add-section:hover {
+    background: #CFD4D8;
+    color: white;
+    border: 1px solid #CFD4D8;
+}
+
+.add-task {
+    background: #47ADF1;
+    color: white;
+    border: 1px solid #47ADF1;
+}
+
+.add-section {
+    background: white;
+    color: #CFD4D8;
+    border: 1px solid #CFD4D8;
+}
+
+/* Container principale */
